@@ -8,27 +8,33 @@ namespace Advanced_Csharp
     {
         static void Main(string[] args)
         {
-            int[] primalData = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            int[] primalData = Console.ReadLine()
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
             int lenght = primalData[0];
             int remove = primalData[1];
             int num = primalData[2];
-            int[] values = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-            Stack<int> stck = new Stack<int>();
+            int[] values = Console.ReadLine()
+                .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+            Queue<int> qry = new Queue<int>();
             foreach (var item in values)
             {
-                stck.Push(item);
+                qry.Enqueue(item);
             }
             for (int i = 0; i < remove; i++)
             {
-                stck.Pop();
+                qry.Dequeue();
             }
-            if (stck.Contains(num))
+            if (qry.Contains(num))
             {
                 Console.WriteLine("true");
             }
-            else if(stck.Count > 0)
+            else if (qry.Count > 0)
             {
-                Console.WriteLine(stck.Min());
+                Console.WriteLine(qry.Min());
             }
             else
             {
