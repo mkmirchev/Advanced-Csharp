@@ -25,18 +25,19 @@ namespace Diagonal_Difference
             }
             //summing two diagonals
             int firstD = 0;
-            int secondD = 0;
-            int tmp = a - 1;
+            //int secondD = 0;
+            //int tmp = a - 1;
             for (int i = 0; i < a; i++)
             {
                 firstD += matrix[i, i];
-                secondD += matrix[tmp, i];
-                tmp--;
+                //secondD += matrix[tmp, i];
+                //tmp--;
             }
 
             //generation output
-            int output = firstD - secondD;
-            Console.WriteLine(Math.Abs(output));
+            //int output = firstD - secondD;
+            //Console.WriteLine(Math.Abs(output));
+            Console.WriteLine(firstD);
         }
     }
 }
