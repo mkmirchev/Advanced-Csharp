@@ -99,6 +99,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam preparation", "Exam pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garden", "Garden\Garden.csproj", "{952E2AFB-BCF6-4A00-92B6-3F269174E52A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic box of string", "Generic box of string\Generic box of string.csproj", "{67CC3963-3D10-49E0-A8A2-D490F5BD4F79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{C0CCD465-1E20-48A8-8787-54FFCA5B7124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{4C49C458-6922-4F22-A44C-7889AFF40719}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -269,6 +275,14 @@ Global
 		{952E2AFB-BCF6-4A00-92B6-3F269174E52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{952E2AFB-BCF6-4A00-92B6-3F269174E52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{952E2AFB-BCF6-4A00-92B6-3F269174E52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CC3963-3D10-49E0-A8A2-D490F5BD4F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CC3963-3D10-49E0-A8A2-D490F5BD4F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CC3963-3D10-49E0-A8A2-D490F5BD4F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CC3963-3D10-49E0-A8A2-D490F5BD4F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C49C458-6922-4F22-A44C-7889AFF40719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C49C458-6922-4F22-A44C-7889AFF40719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C49C458-6922-4F22-A44C-7889AFF40719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C49C458-6922-4F22-A44C-7889AFF40719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,6 +327,7 @@ Global
 		{1D9818DA-99D7-4689-B933-DAFDDA513EEF} = {A32B83A1-3D2C-4413-8FC7-0CD943F91CFD}
 		{91AC4541-7D73-4BA5-9F28-6A5F19A46CA7} = {A29770BA-0592-4A65-A153-13737FFC9135}
 		{952E2AFB-BCF6-4A00-92B6-3F269174E52A} = {A29770BA-0592-4A65-A153-13737FFC9135}
+		{67CC3963-3D10-49E0-A8A2-D490F5BD4F79} = {C0CCD465-1E20-48A8-8787-54FFCA5B7124}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AB89963-F1D1-452C-BCCC-38FD0E39E066}
